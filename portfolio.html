@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-aweso...in.css">
+    <script src="https://kit.fontawesome.com/044cb39f80.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container1 {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 0 50px;
+        }
+
+        header {
+            background-color: #f0f0f0;
+            padding: 20px 0;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #140202;
+        }
+
+        .resume-btn {
+            background-color: #000000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .hero {
+            background-color: #f9f9f9;
+            padding: 50px 0;
+        }
+
+        .hero .container {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-right: 50px;
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .profile-info h2 {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+        .profile-info h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .profile-info .title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .profile-info .location {
+            color: #666;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .content p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .social-icons img {
+            width: 30px;
+            margin-right: 10px;
+        }
+
+        .hero-image {
+            flex: 1;
+            text-align: right;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .container {
+            max-width: 1440px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            justify-items: center;
+        }
+
+        .skill-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            width: 120px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .skill-item i {
+            font-size: 30px;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .skill-item:hover {
+            background: #000;
+            color: #fff;
+            border-color: #000;
+        }
+
+        .skill-item:hover i {
+            color: #fff;
+        }
+
+        .experience {
+            background-color: #dfdcdc;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="container1">
+            <div class="logo"><i class="fa-solid fa-blog"></i>Personal</div>
+            <nav>
+                <ul>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </nav>
+            <button class="resume-btn">Resume<i class="fa-solid fa-download"></i></button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="profile">
+                <div class="profile-info">
+                    <h1>Hello I'am Evren Shah.</h1>
+                    <p class="title">Frontend Developer</p>
+                    <p class="location">Based In India.</p>
+                    <p>i'm thanhdat sjdjasid dsdnjasdnsjnd sdnjsdjasdnasjdn sjdsihdisdsndksnd sjdnisndsndskndsknzz</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i><img src="" alt=""></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i><img src="" alt=""></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i><img src="" alt=""></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="hero-image.png" alt="Hero Image">
+            </div>
+        </div>
+        <div class="container">
+            <h2>My <strong>Skills</strong></h2>
+            <div class="skills">
+                <div class="skill-item"><i class="fab fa-js-square"></i> JavaScript</div>
+                <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
+                <div class="skill-item"><i class="fab fa-sass"></i> Sass/SCSS</div>
+                <div class="skill-item"><i class="fab fa-node-js"></i> Nest.js</div>
+                <div class="skill-item"><i class="fas fa-book"></i> Storybook</div>
+                <div class="skill-item"><i class="fas fa-plug"></i> Socket.io</div>
+            </div>
+        </div>
+
+        <section class="experience">
+            <div class="container">
+                <h2>My Experience</h2>
+                <div class="experience-items">
+                    <div class="experience-item">
+                        <h3>G Lead Software Engineer at Google</h3>
+                        <p>Google</p>
+                        <p>I led a team of engineers in developing and maintaining key software for Google's core
+                            services. Responsible for collaborating with a dynamic team of engineers, I contributed to
+                            the advancement of search accuracy and efficiency. My leadership ensured timely delivery of
+                            critical software updates.</p>
+                        <p class="date">Present - Present</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Software Engineer at Youtube</h3>
+                        <p>Youtube</p>
+                        <p>At YouTube, I focused on enhancing the design and implementation of technical systems,
+                            contributing to the platform's growth. Worked on projects that improved large-scale data
+                            processing and user engagement features. I developed robust solutions to enhance the user
+                            experience.</p>
+                        <p class="date">Jul 2021 - Dec 2021</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Junior Software Engineer at Apple</h3>
+                        <p>Apple</p>
+                        <p>During my tenure at Apple, I joined the team of software architect, where I played a key role
+                            in integrating the innovations of released printed software products. Responsible for
+                            designing scalable and efficient systems, I provided technical leadership to a
+                            cross-functional team.</p>
+                        <p class="date">Jan 2019 - Dec 2020</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2023 - 2025 Personal</p>
+                <p>Made in Figma</p>
+            </div>
+        </footer>
+
+</body>
+
+</html>
